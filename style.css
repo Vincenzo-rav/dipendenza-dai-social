@@ -4,8 +4,24 @@ body {
     background-color: #f0f0f0; /* Il colore dello sfondo della pagina web */
     color: #34364e; /* Il colore del testo */ 
 }
+
+
+
+
 h1 {
     color: #34364e; /* Il colore dell'intestazione */
     font-size: 30px; /* La dimensione del font dell'intestazione */
     font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
+    animation: animazione 10s infinite;
+}
+
+
+@keyframes animazione {
+    0% {color: #34364e}
+
+    50% {color: rgb(43, 177, 88)}
+
+    80% {color: rgb(99, 97, 95)}
+
+    100% {color: #34364e}
 }
